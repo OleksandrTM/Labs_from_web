@@ -1,0 +1,112 @@
+@import 'colors';
+@import 'mixins';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    @include body();
+}
+
+header {
+    @include header();
+}
+
+nav ul {
+    @include ul();
+}
+
+nav li {
+    @include li();
+}
+
+nav a {
+    @include a();
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid $input-form-border;
+    border-radius: 5px;
+}
+
+button[type="submit"],
+button[type="button"] {
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: $buttons;
+    color: $form-background-text;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+button[type="submit"]:hover {
+    background-color: $button-hover;
+}
+
+button[type="button"] {
+    background-color: $cancel-buttons;
+    border: none;
+}
+
+button[type="button"]:hover {
+    background-color: $cancel-button-hover;
+}
+
+#cancel {
+    color: $form-background-text;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    flex: 1 0 auto;
+    padding-bottom: 80px;
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 10%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    @include footer();
+}

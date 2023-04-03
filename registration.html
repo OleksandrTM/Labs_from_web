@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="css/registration.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Реєстрація</h1>
+
+            <label for="username"><b>Ім'я користувача</b></label>
+            <input type="text" placeholder="Введіть ім'я користувача" name="username" required>
+
+            <label for="usersurname"><b>Прізвище користувача</b></label>
+            <input type="text" placeholder="Введіть прізвище користувача" name="usersurname" required>
+
+            <label for="email"><b>Пошта</b></label>
+            <input type="email" placeholder="Введіть пошту" name="email" required>
+
+            <label for="password"><b>Пароль</b></label>
+            <input type="password" placeholder="Введіть пароль" name="password" required>
+
+            <label for="confirm_password"><b>Підтвердження паролю</b></label>
+            <input type="password" placeholder="Підтвердьте пароль" name="confirm_password" required>
+
+            <label for="role"><b>Роль</b></label>
+            <select name="role" required>
+                <option value="" disabled selected>Виберіть роль</option>
+                <option value="manager">Менеджер</option>
+                <option value="admin">Адміністратор</option>
+            </select>
+
+            <div class="buttons">
+                <button type="submit">Зареєструватися</button>
+                <button class="cancel-button"><a href="maybe_success.html">Відмінити</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

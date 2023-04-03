@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Редагування даних студента</title>
+    <link rel="stylesheet" href="css/student_edit.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rating_img.jpg" alt="Рейтинг">
+        <h1>Редагування даних студента</h1>
+        <nav>
+            <ul>
+                <li><a href="successful_lr.html">Головна</a></li>
+                <li><a href="details.html">Інформація про студента</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Редагування студента</h1>
+        <form>
+            <div>
+                <label for="name">ПІБ:</label>
+                <input type="text" id="name" name="name" value="Іваненко Іван Іванович"><br>
+            </div>
+
+            <div>
+                <label for="university">Університет:</label>
+                <input type="text" id="university" name="university"
+                    value="Національний університет &quot;Львівська політехніка&quot;"><br>
+            </div>
+
+            <div>
+                <label for="faculty">Факультет:</label>
+                <input type="text" id="faculty" name="faculty"
+                    value="Факультет інформатики та обчислювальної техніки"><br>
+            </div>
+
+            <div>
+                <label for="name">Група</label>
+                <input type="text" id="group" name="group" value="КН-21"><br>
+            </div>
+
+            <div>
+                <label for="math">Математичний аналіз:</label>
+                <input type="number" id="math" name="math" value="92"><br>
+            </div>
+
+            <div>
+                <label for="prog">Програмування:</label>
+                <input type="number" id="prog" name="prog" value="89"><br>
+            </div>
+
+            <div>
+                <label for="algorithms">Алгоритми та структури даних:</label>
+                <input type="number" id="algorithms" name="algorithms" value="96"><br>
+            </div>
+
+            <div>
+                <button type="submit"><a id="cancel" href="">Додати предмет</a></button>
+                <button type="button"><a id="cancel" href="">Видалити предмет</a></button>
+                <br><br>
+                <button type="submit"><a id="cancel" href="details.html">Зберегти зміни</a></button>
+                <button type="button"><a id="cancel" href="details.html">Відмінити</a></button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright &copy;
+            <!-- <script>document.write(new Date().getFullYear())</script> -->2023
+            Всі права захищено.
+        </p>
+    </footer>
+</body>
+
+</html>
