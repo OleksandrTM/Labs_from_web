@@ -23,7 +23,7 @@
     </header>
     <main>
         <h2>Список користувачів</h2>
-        <table>
+        <table id="users_t">
             <thead>
                 <tr>
                     <th>Користувач</th>
@@ -32,51 +32,39 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Ілля Бойко</td>
-                    <td>Менеджер</td>
-                    <td>ilya@example.com</td>
-                </tr>
-                <tr>
-                    <td>Христина Левчук</td>
-                    <td>Менеджер</td>
-                    <td>christina@example.com</td>
-                </tr>
-                <tr>
-                    <td>Софія Горобець</td>
-                    <td>Адміністратор</td>
-                    <td>sofia@example.com</td>
-                </tr>
             </tbody>
         </table>
         <h2>Додати студента</h2>
         <form>
-            <label for="name">ПІБ:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="first_name">Ім'я:</label>
+            <input type="text" id="fname" name="fname" required>
 
-            <label for="university">Університет:</label>
-            <input type="text" id="university" name="university" required><br>
+            <label for="last_name">Прізвище:</label>
+            <input type="text" id="lname" name="lname" required>
+
+            <!-- <label for="university">Університет:</label>
+            <input type="text" id="university" name="university" required><br> -->
 
             <label for="faculty">Факультет:</label>
             <input type="text" id="faculty" name="faculty" required><br>
 
-            <label for="name">Група</label>
-            <input type="text" id="group" name="group" required><br>
+            <!-- <label for="name">Група</label>
+            <input type="text" id="group" name="group" required><br> -->
 
             <button type="submit">Додати</button>
         </form>
         <h2 id="rating">Рейтинг студентів</h2>
-        <table class="rating-table">
+        <table id="s_rating-table" class="rating-table">
             <thead>
                 <tr>
                     <th>№</th>
                     <th>Студент</th>
-                    <th>Група</th>
+                    <!-- <th>Група</th> -->
                     <th>Рейтинговий бал</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <!-- <tr>
                     <td>1</td>
                     <td><a href="details.html">Іваненко Іван Іванович</a></td>
                     <td>КН-21</td>
@@ -195,7 +183,7 @@
                     <td><a href="details.html">Григоренко Анатолій Васильович</a></td>
                     <td>КН-31</td>
                     <td>51</td>
-                </tr>
+                </tr> -->
             </tbody>
         </table>
         <h2 id="about-us">Про нас</h2>
@@ -210,10 +198,11 @@
     </main>
     <footer>
         <p>Copyright &copy;
-            <!-- <script>document.write(new Date().getFullYear())</script> -->2023
+            <script>document.write(new Date().getFullYear())</script>
             Всі права захищено.
         </p>
     </footer>
+    <script src="successful_lr.js"></script>
 </body>
 
 </html>
