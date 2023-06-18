@@ -1,0 +1,69 @@
+@import 'colors';
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+main h1.EH1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.EForm {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+form.EForm div {
+    margin-bottom: 1rem;
+}
+
+.ELab {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.Einp {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid $input-form-border;
+    border-radius: 5px;
+}
+
+.Ebut {
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 115px;
+    color: $form-background-text;
+    cursor: pointer;
+}
+
+#Ebut1 {
+    background-color: $buttons;
+    color: $form-background-text;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+#Ebut1:hover {
+    background-color: $button-hover;
+}
+
+#Ebut2 {
+    background-color: $cancel-buttons;
+    border: none;
+}
+
+#Ebut2:hover {
+    background-color: $cancel-button-hover;
+}

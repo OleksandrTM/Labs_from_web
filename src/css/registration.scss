@@ -1,0 +1,71 @@
+@import 'colors';
+
+.containerR {
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 16px;
+    background-color: $text-color;
+    border-radius: 10px;
+    box-shadow: 0 0 10px $login-form;
+}
+
+.regInput {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid $input-form-border;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.labelRegistr {
+    margin-top: 12px;
+    display: block;
+    font-weight: bold;
+}
+
+.regH1 {
+    text-align: center;
+}
+
+.regB {
+    color: $form-background-text;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button.cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: $form-background-text;
+    font-size: 17px;
+    width: 170px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+#cancelButton {
+    background-color: $buttons;
+}
+
+#cancelButton:hover {
+    background-color: $button-hover;
+}
+
+#cancel-button {
+    background-color: $cancel-buttons;
+}
+
+#cancel-button:hover {
+    background-color: $cancel-button-hover;
+}

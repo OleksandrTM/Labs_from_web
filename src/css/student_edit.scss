@@ -1,0 +1,70 @@
+@import 'colors';
+
+.ESinput {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid $input-form-border;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.ESbutton {
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ESsave {
+    background-color: $buttons;
+    color: $form-background-text;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+#ESadd {
+    background-color: $buttons;
+    color: $form-background-text;
+    border: none;
+}
+
+#ESsave:hover,
+#ESadd:hover {
+    background-color: $button-hover;
+}
+
+#ESdel {
+    background-color: $cancel-buttons;
+    color: $form-background-text;
+    border: none;
+}
+
+#ESdel:hover {
+    background-color: $cancel-button-hover;
+}
+
+main h1.ESinf {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+form.ESform {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+form.ESform div {
+    margin-bottom: 1rem;
+}
+
+label.ESlabel {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
