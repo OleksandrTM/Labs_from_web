@@ -1,0 +1,67 @@
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+main h1.EH1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.EForm {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+form.EForm div {
+  margin-bottom: 1rem;
+}
+
+.ELab {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.Einp {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Ebut {
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 115px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#Ebut1 {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+#Ebut1:hover {
+  background-color: #3e8e41;
+}
+
+#Ebut2 {
+  background-color: #f44336;
+  border: none;
+}
+
+#Ebut2:hover {
+  background-color: #d32f2f;
+}/*# sourceMappingURL=edit.css.map */

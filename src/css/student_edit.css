@@ -1,0 +1,68 @@
+.ESinput {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.ESbutton {
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#ESsave {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+#ESadd {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+}
+
+#ESsave:hover,
+#ESadd:hover {
+  background-color: #3e8e41;
+}
+
+#ESdel {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+}
+
+#ESdel:hover {
+  background-color: #d32f2f;
+}
+
+main h1.ESinf {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+form.ESform {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+form.ESform div {
+  margin-bottom: 1rem;
+}
+
+label.ESlabel {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=student_edit.css.map */
